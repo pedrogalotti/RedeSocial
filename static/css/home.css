@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color:white;
+	background-color: #161618;
+	width: 260px;
+	height: 400px;
+	z-index: 1000;
+	padding: 50px;
+	position: absolute;
+	bottom: 87%;
+	right: 84%;
+}	
+
+header h2{
+	font-size: 3.5rem;
+	margin-left: 4rem;
+	color: #fbac03;
+}
+
+header form{
+	width: 30rem;
+}
+
+nav ul{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8rem;
+}
+
+nav ul li{
+	list-style: none;
+	
+}
+nav ul li
+
+
+
+/* Posts */
+
+#perfils{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	/* background-color: rgb(60, 57, 57); */
+	background-color: #fbac03;
+	position: relative;
+}
+
+.posts{
+	color:white;
+	width: 400px;
+	height: 395rem;
+	padding: 30px;
+	position: relative;
+	background-color: #181818;
+}
+
+.stories{
+	color:white;
+	width: 400px;
+	height: 395rem;
+	background-color: 	#212121;
+	overflow: hidden;
+}
+
+.img_perfil{
+	border-radius: 50%;
+	width: 80px;
+}
+
+.posts_img{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+
+.perfil_stories ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	list-style: none;
+	gap: 80px;
+
+	margin-top: 2%;
+}
+
+/* .img_perfil{
+	position: absolute;
+	top: 110px;
+	left: 50px;
+	z-index: 2;
+}
+
+.img_post{
+	position: absolute;
+	top: 200px;
+	left: 50px;
+}
+ */
